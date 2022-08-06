@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31521.260
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{5D7D01B6-30E0-4552-BE0E-6EE1577B5FA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{BE8F341D-1378-4B40-88F9-6901B74F17C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeekShopping.Web", "GeekShopping.Web\GeekShopping.Web.csproj", "{5F676414-A1E7-4180-96F6-C7479B1100A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeekShopping.ProductAPI", "GeekShopping.ProductAPI\GeekShopping.ProductAPI.csproj", "{85D4039E-9A6D-4472-91FD-60E05EEE3587}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeekShopping.IdentityServer", "GeekShopping.IdentityServer\GeekShopping.IdentityServer.csproj", "{056E5634-312E-470B-9246-AF89492EC1EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeekShopping.CartAPI", "GeekShopping.CartAPI\GeekShopping.CartAPI.csproj", "{F62DCD77-841D-46AE-8B8C-A9C6A7E593D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeekShopping.CouponAPI", "E:\Downloads Temp\S16_ErudioMicroservices.NET6-CreatingGeekShopping.CouponAPIMicroservice\GeekShooping\GeekShopping.CouponAPI\GeekShopping.CouponAPI.csproj", "{32ADA71A-2B9B-4DE3-B1C0-24D27292215C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F676414-A1E7-4180-96F6-C7479B1100A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F676414-A1E7-4180-96F6-C7479B1100A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F676414-A1E7-4180-96F6-C7479B1100A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F676414-A1E7-4180-96F6-C7479B1100A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85D4039E-9A6D-4472-91FD-60E05EEE3587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85D4039E-9A6D-4472-91FD-60E05EEE3587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85D4039E-9A6D-4472-91FD-60E05EEE3587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85D4039E-9A6D-4472-91FD-60E05EEE3587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{056E5634-312E-470B-9246-AF89492EC1EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{056E5634-312E-470B-9246-AF89492EC1EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{056E5634-312E-470B-9246-AF89492EC1EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{056E5634-312E-470B-9246-AF89492EC1EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F62DCD77-841D-46AE-8B8C-A9C6A7E593D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F62DCD77-841D-46AE-8B8C-A9C6A7E593D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F62DCD77-841D-46AE-8B8C-A9C6A7E593D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F62DCD77-841D-46AE-8B8C-A9C6A7E593D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32ADA71A-2B9B-4DE3-B1C0-24D27292215C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32ADA71A-2B9B-4DE3-B1C0-24D27292215C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32ADA71A-2B9B-4DE3-B1C0-24D27292215C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32ADA71A-2B9B-4DE3-B1C0-24D27292215C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5F676414-A1E7-4180-96F6-C7479B1100A8} = {5D7D01B6-30E0-4552-BE0E-6EE1577B5FA7}
+		{85D4039E-9A6D-4472-91FD-60E05EEE3587} = {BE8F341D-1378-4B40-88F9-6901B74F17C3}
+		{056E5634-312E-470B-9246-AF89492EC1EA} = {BE8F341D-1378-4B40-88F9-6901B74F17C3}
+		{F62DCD77-841D-46AE-8B8C-A9C6A7E593D6} = {BE8F341D-1378-4B40-88F9-6901B74F17C3}
+		{32ADA71A-2B9B-4DE3-B1C0-24D27292215C} = {BE8F341D-1378-4B40-88F9-6901B74F17C3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44782F14-DB85-4BF3-BFEA-254F451A02FA}
+	EndGlobalSection
+EndGlobal
