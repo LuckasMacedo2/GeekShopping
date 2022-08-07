@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TxmzfSug1XXyW1fabPq3o+qweqycFDl1bfapF2w/rLrxQQoqcLSHXtIQQ4uMV5uzcxafOyOBlRJPK2NHQEtSaA==",
+  "dgSpecHash": "G0uy6ZmNfyvcGiLz/0Eow236Ji0Xck6VVqhuCFp4+ylj8SzfwQYzHlUwiaGDrK32vO3icPfcXh8/ztr3Vn1rag==",
   "success": true,
-  "projectFilePath": "F:\\Projects\\Projetos - Estudo\\GeekShooping\\GeekShopping.Web\\GeekShopping.Web.csproj",
+  "projectFilePath": "F:\\Projects\\Projetos - Estudo\\GeekShopping\\GeekShopping.Web\\GeekShopping.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucka\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\lucka\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

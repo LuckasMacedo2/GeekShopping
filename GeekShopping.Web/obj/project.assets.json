@@ -2328,11 +2328,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Projects\\Projetos - Estudo\\GeekShooping\\GeekShopping.Web\\GeekShopping.Web.csproj",
+      "projectUniqueName": "F:\\Projects\\Projetos - Estudo\\GeekShopping\\GeekShopping.Web\\GeekShopping.Web.csproj",
       "projectName": "GeekShopping.Web",
-      "projectPath": "F:\\Projects\\Projetos - Estudo\\GeekShooping\\GeekShopping.Web\\GeekShopping.Web.csproj",
+      "projectPath": "F:\\Projects\\Projetos - Estudo\\GeekShopping\\GeekShopping.Web\\GeekShopping.Web.csproj",
       "packagesPath": "C:\\Users\\lucka\\.nuget\\packages\\",
-      "outputPath": "F:\\Projects\\Projetos - Estudo\\GeekShooping\\GeekShopping.Web\\obj\\",
+      "outputPath": "F:\\Projects\\Projetos - Estudo\\GeekShopping\\GeekShopping.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

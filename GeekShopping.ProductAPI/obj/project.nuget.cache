@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Bd5KMYiLvzwWjgcDHAIDU0zTt3IsD20ljG52UqfyXxLQ7/dfrOD8OvN9uAG0xVgmYSMZfPSk+Shc1St4J9VWww==",
+  "dgSpecHash": "oecaUp7Mgmz1ZQgcUSV5sTWA15hOyLDo/nO0UCQxJkny1+2FePdj7/q4QncA5bIO6n7o9tzZ2I3ieG5mjSRynQ==",
   "success": true,
-  "projectFilePath": "F:\\Projects\\Projetos - Estudo\\GeekShooping\\GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj",
+  "projectFilePath": "F:\\Projects\\Projetos - Estudo\\GeekShopping\\GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucka\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\lucka\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

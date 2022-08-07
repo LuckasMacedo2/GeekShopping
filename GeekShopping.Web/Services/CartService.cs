@@ -75,9 +75,14 @@ namespace GeekShopping.Web.Services
                 throw new Exception("Something went wrong when calling API");
         }
 
-        public async Task<CartViewModel> Checkout(CartHeaderViewModel cartHeaderViewModel, string token)
+        public async Task<CartHeaderViewModel> Checkout(CartHeaderViewModel cartHeaderViewModel, string token)
         {
-            throw new System.NotImplementedException();
+            _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            var response = await _client.PostAsJson($"{BasePath}/checkout", cartHeaderViewModel);
+            if (response.IsSuccessStatusCode)
+                return await response.ReadContentAs<CartHeaderViewModel>();
+            else
+                throw new Exception("Something went wrong when calling API");
         }
 
         public async Task<bool> ClearCart(string userId, string token)
