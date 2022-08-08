@@ -363,6 +363,19 @@
           "lib/net5.0/Pomelo.EntityFrameworkCore.MySql.dll": {}
         }
       },
+      "RabbitMQ.Client/6.4.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.4",
+          "System.Threading.Channels": "4.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {}
+        }
+      },
       "Swashbuckle.AspNetCore/6.1.5": {
         "type": "package",
         "dependencies": {
@@ -509,6 +522,25 @@
             "assetType": "runtime",
             "rid": "win"
           }
+        }
+      },
+      "System.Threading.Channels/4.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/System.Threading.Channels.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Threading.Channels.dll": {}
+        }
+      },
+      "GeekShopping.MessageBus/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/GeekShopping.MessageBus.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GeekShopping.MessageBus.dll": {}
         }
       }
     }
@@ -1115,6 +1147,22 @@
         "pomelo.entityframeworkcore.mysql.nuspec"
       ]
     },
+    "RabbitMQ.Client/6.4.0": {
+      "sha512": "1znR1gGU+xYVSpO5z8nQolcUKA/yydnxQn7Ug9+RUXxTSLMm/eE58VKGwahPBjELXvDnX0k/kBrAitFLRjx9LA==",
+      "type": "package",
+      "path": "rabbitmq.client/6.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net461/RabbitMQ.Client.dll",
+        "lib/net461/RabbitMQ.Client.xml",
+        "lib/netstandard2.0/RabbitMQ.Client.dll",
+        "lib/netstandard2.0/RabbitMQ.Client.xml",
+        "rabbitmq.client.6.4.0.nupkg.sha512",
+        "rabbitmq.client.nuspec"
+      ]
+    },
     "Swashbuckle.AspNetCore/6.1.5": {
       "sha512": "AFiomCan3c3twBr3q/0P0YECN+AtJEKASjtRybbKlFyqSyENrwj8Q3JmPQ7knyp7Z2TzbhZ+ZccA3eXpGcD97g==",
       "type": "package",
@@ -1472,15 +1520,46 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "System.Threading.Channels/4.7.1": {
+      "sha512": "6akRtHK/wab3246t4p5v3HQrtQk8LboOt5T4dtpNgsp3zvDeM4/Gx8V12t0h+c/W9/enUrilk8n6EQqdQorZAA==",
+      "type": "package",
+      "path": "system.threading.channels/4.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Threading.Channels.dll",
+        "lib/net461/System.Threading.Channels.xml",
+        "lib/netcoreapp3.0/System.Threading.Channels.dll",
+        "lib/netcoreapp3.0/System.Threading.Channels.xml",
+        "lib/netstandard1.3/System.Threading.Channels.dll",
+        "lib/netstandard1.3/System.Threading.Channels.xml",
+        "lib/netstandard2.0/System.Threading.Channels.dll",
+        "lib/netstandard2.0/System.Threading.Channels.xml",
+        "system.threading.channels.4.7.1.nupkg.sha512",
+        "system.threading.channels.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "GeekShopping.MessageBus/1.0.0": {
+      "type": "project",
+      "path": "../GeekShopping.MessageBus/GeekShopping.MessageBus.csproj",
+      "msbuildProject": "../GeekShopping.MessageBus/GeekShopping.MessageBus.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoMapper >= 10.1.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.1.1",
+      "GeekShopping.MessageBus >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.0-preview.6.21355.2",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.0-preview.6.21352.1",
       "Pomelo.EntityFrameworkCore.MySql >= 6.0.0-preview.5",
+      "RabbitMQ.Client >= 6.4.0",
       "Swashbuckle.AspNetCore >= 6.1.5",
       "Swashbuckle.AspNetCore.Annotations >= 6.1.5",
       "Swashbuckle.AspNetCore.SwaggerUI >= 6.1.5"
@@ -1517,7 +1596,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\Projects\\Projetos - Estudo\\GeekShopping\\GeekShopping.MessageBus\\GeekShopping.MessageBus.csproj": {
+              "projectPath": "F:\\Projects\\Projetos - Estudo\\GeekShopping\\GeekShopping.MessageBus\\GeekShopping.MessageBus.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1551,6 +1634,10 @@
           "Pomelo.EntityFrameworkCore.MySql": {
             "target": "Package",
             "version": "[6.0.0-preview.5, )"
+          },
+          "RabbitMQ.Client": {
+            "target": "Package",
+            "version": "[6.4.0, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
