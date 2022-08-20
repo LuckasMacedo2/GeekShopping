@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeekShopping.CouponAPI", "G
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{3CB3D45A-FD9D-432C-93D6-CC20D5524246}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekShopping.MessageBus", "GeekShopping.MessageBus\GeekShopping.MessageBus.csproj", "{9DEB8E04-0687-4F92-822B-9F03F9CC759B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeekShopping.MessageBus", "GeekShopping.MessageBus\GeekShopping.MessageBus.csproj", "{9DEB8E04-0687-4F92-822B-9F03F9CC759B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekShopping.OrderAPI", "GeekShopping.OrderAPI\GeekShopping.OrderAPI.csproj", "{0E5A5B8C-A6D3-4AD5-A538-801A46A4A60C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{9DEB8E04-0687-4F92-822B-9F03F9CC759B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DEB8E04-0687-4F92-822B-9F03F9CC759B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DEB8E04-0687-4F92-822B-9F03F9CC759B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E5A5B8C-A6D3-4AD5-A538-801A46A4A60C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E5A5B8C-A6D3-4AD5-A538-801A46A4A60C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E5A5B8C-A6D3-4AD5-A538-801A46A4A60C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E5A5B8C-A6D3-4AD5-A538-801A46A4A60C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +68,7 @@ Global
 		{F62DCD77-841D-46AE-8B8C-A9C6A7E593D6} = {BE8F341D-1378-4B40-88F9-6901B74F17C3}
 		{C2E9EDFA-8201-4D83-A07F-7359797EF4DF} = {BE8F341D-1378-4B40-88F9-6901B74F17C3}
 		{9DEB8E04-0687-4F92-822B-9F03F9CC759B} = {3CB3D45A-FD9D-432C-93D6-CC20D5524246}
+		{0E5A5B8C-A6D3-4AD5-A538-801A46A4A60C} = {BE8F341D-1378-4B40-88F9-6901B74F17C3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {44782F14-DB85-4BF3-BFEA-254F451A02FA}
