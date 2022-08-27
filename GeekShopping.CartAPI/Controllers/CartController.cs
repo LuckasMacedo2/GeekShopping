@@ -73,6 +73,7 @@ namespace GeekShopping.CartAPI.Controllers
         public async Task<ActionResult<CartVO>> Checkout(CheckoutHeaderVO checkoutHeaderVO)
         {
             string token = Request.Headers["Authorization"];
+            token = token.Replace("Bearer ", "");
 
             if (checkoutHeaderVO?.UserId == null) return BadRequest();
             var cart = await _cartRepository.FindCartByUserId(checkoutHeaderVO.UserId);
@@ -92,6 +93,9 @@ namespace GeekShopping.CartAPI.Controllers
 
             // RabbitMQ logic comes here
             _rabbitMQMessageSender.SendMessage(checkoutHeaderVO, "checkoutqueue");
+
+            // Limpando o carrinho
+            await _cartRepository.ClearCart(checkoutHeaderVO.UserId);
 
             return Ok(checkoutHeaderVO);
         }
