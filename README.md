@@ -7,7 +7,7 @@ Repositório com códigos referente sao projeto GeekShopping que busca empregar 
 -- dotnet new --install Duende.IdentityServer.Templates
 -- dotnet new isui
 - RabbitMQ: Realiza a comunicação assíncrona entre os microsserviços a partir de mensagens. Instalação:
-* Inicilizar o docker service
+** Inicilizar o docker service
 -- docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
 -- Login: guest
 -- Senha: guest
