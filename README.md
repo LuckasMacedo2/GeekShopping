@@ -4,13 +4,13 @@ Repositório com códigos referente sao projeto GeekShopping que busca empregar 
 
 ## Tecnologias utilizadas
 - Identity service: Prover a autenticação e um serviço de login. Instalação:
--- dotnet new --install Duende.IdentityServer.Templates
--- dotnet new isui
+1. dotnet new --install Duende.IdentityServer.Templates
+2. dotnet new isui
 - RabbitMQ: Realiza a comunicação assíncrona entre os microsserviços a partir de mensagens. Instalação:
 1. Inicilizar o docker service
--- docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
--- Login: guest
--- Senha: guest
+2. docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
+3. Login: guest
+4. Senha: guest
 - Ocelot: API Gateway, centraliza as requisições para os microsserviços da aplicação. Deve-se realizar a configuração do redirectionamento no appsettings.json do projeto do ocelot para cada rota da aplicação. Exemplo de configuração:
 {
       "DownstreamPathTemplate": "",
