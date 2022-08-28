@@ -12,6 +12,7 @@ Repositório com códigos referente sao projeto GeekShopping que busca empregar 
 3. Login: guest
 4. Senha: guest
 - Ocelot: API Gateway, centraliza as requisições para os microsserviços da aplicação. Deve-se realizar a configuração do redirectionamento no appsettings.json do projeto do ocelot para cada rota da aplicação. Exemplo de configuração:
+'''
 {
       "DownstreamPathTemplate": "",
       "DownstreamScheme": "",
@@ -28,7 +29,7 @@ Repositório com códigos referente sao projeto GeekShopping que busca empregar 
         "AllowedScopes": [ "" ]
       }
 }
-
+'''
 ## Conceitos utilizados
 - Microsserviços: Estilo arquitetural para a construção de software. O software é construído por meio de pequenos serviços independentes que se comunicam por meio de um protocolo, como, o HTTP.
 - Repository: Abstrai o acesso a bancos de dados, arquivos em disco, outros serviços, etc
